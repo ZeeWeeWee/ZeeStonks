@@ -1,0 +1,68 @@
+/* ✅ Basic theming */
+body {
+    font-family: Arial, sans-serif;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .app {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* ✅ Dark mode styles */
+  .dark-mode {
+    background-color: #121212;
+    color: white;
+  }
+  
+  /* ✅ Light mode styles */
+  .light {
+    background-color: #ffffff;
+    color: black;
+  }
+  
+  /* ✅ Toggle Button */
+  .toggle-btn {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .toggle-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* ✅ Default stock card styles */
+  .stock-card {
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s, color 0.3s;
+    background-color: white; /* Default background for light mode */
+    color: black; /* Default text color for light mode */
+    border: 1px solid #ccc;
+  }
+  
+  /* ✅ Keep stock card black in dark mode */
+  .dark-mode .stock-card {
+    background-color: #222; /* Dark gray */
+    color: white;
+    border: 1px solid #444; /* Slight border for visibility */
+  }
+  
+  /* ✅ Ensure input field is visible in dark mode */
+  .dark-mode input {
+    background-color: #333;
+    color: white;
+    border: 1px solid white;
+  }
+  
+  .dark-mode input::placeholder {
+    color: #bbb;
+  }
