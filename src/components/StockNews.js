@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./StockNews.css"; // ✅ Ensure this file exists
 
-const API_KEY = "cupp6j1r01qk8dnlghu0cupp6j1r01qk8dnlghug"; // ✅ Replace with your actual API key
+const API_KEY = "API_KEY_HERE"; // ✅ Replace with your actual API key
 
 const StockNews = ({ symbol }) => {
   const [news, setNews] = useState([]);

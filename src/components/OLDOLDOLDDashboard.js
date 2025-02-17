@@ -4,7 +4,7 @@ import StockSearch from "./StockSearch";
 import StockChart from "./StockChart"; // ✅ Import StockChart
 import axios from "axios";
 
-const API_KEY = "cupp6j1r01qk8dnlghu0cupp6j1r01qk8dnlghug"; // Replace with your actual API key
+const API_KEY = "API_KEY_HERE"; // Replace with your actual API key
 
 const Dashboard = () => {
   // ✅ Load saved balance OR default to $10,000

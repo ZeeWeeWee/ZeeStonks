@@ -6,7 +6,7 @@ import axios from "axios";
 // ✅ Register the required chart components
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
-const API_KEY = "JZF2D9VVQZLDNOQR";  // Replace with your real API key
+const API_KEY = "API_KEY_HERE";  // Replace with your real API key
 
 const StockChart = ({ symbol }) => {
   const [chartData, setChartData] = useState(null);

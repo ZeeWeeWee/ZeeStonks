@@ -3,7 +3,7 @@ import axios from "axios";
 import "./StockNews.css"; // ✅ Ensure this file exists
 import { Link } from "react-router-dom";
 
-const API_KEY = "cupp6j1r01qk8dnlghu0cupp6j1r01qk8dnlghug"; // ✅ Replace with your API key
+const API_KEY = "API_KEY_HERE"; // ✅ Replace with your API key
 
 const StockNewsPage = () => {
   const [news, setNews] = useState([]);
